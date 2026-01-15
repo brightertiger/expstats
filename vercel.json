@@ -2,14 +2,13 @@
   "version": 2,
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
-  "framework": null,
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.py" }
-  ],
   "functions": {
     "api/index.py": {
-      "runtime": "python3.12",
+      "runtime": "@vercel/python@4.3.1",
       "maxDuration": 30
     }
-  }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.py" }
+  ]
 }
