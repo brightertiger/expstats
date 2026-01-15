@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import PlainTextResponse
 from pydantic import BaseModel, Field
 from typing import Literal, Optional, List
-from mangum import Mangum
 
 from pyexptest import conversion, magnitude, timing
 
@@ -598,6 +597,3 @@ def timing_rate_analyze(request: TimingRateAnalyzeRequest):
         }
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
-
-
-handler = Mangum(app, lifespan="off")
