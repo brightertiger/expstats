@@ -464,6 +464,7 @@ function DiffInDiffCalculator() {
           />
 
           <div className="card-title">How the groups changed</div>
+          <div className="summary-table-wrapper">
           <table className="summary-table">
             <thead>
               <tr>
@@ -518,6 +519,7 @@ function DiffInDiffCalculator() {
               </tr>
             </tbody>
           </table>
+          </div>
 
           <div className="stats-explanation" style={{ marginTop: '20px' }}>
             <div className="stats-card">

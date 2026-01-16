@@ -174,7 +174,7 @@ function TimingCalculator() {
       <form onSubmit={handleSubmit}>
         {analysisType === 'rates' ? (
           <>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div className="variant-cards-grid">
               <div className="variant-card">
                 <div className="variant-card-header">
                   <span className="variant-badge control">Control</span>
@@ -295,7 +295,7 @@ function TimingCalculator() {
           </>
         ) : (
           <>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div className="variant-cards-grid">
               <div className="variant-card">
                 <div className="variant-card-header">
                   <span className="variant-badge control">Control Group</span>
@@ -495,6 +495,7 @@ function TimingCalculator() {
           )}
 
           <div className="card-title">Survival Summary</div>
+          <div className="summary-table-wrapper">
           <table className="summary-table">
             <thead>
               <tr>
@@ -521,6 +522,7 @@ function TimingCalculator() {
               </tr>
             </tbody>
           </table>
+          </div>
 
           <div className="stats-explanation" style={{ marginTop: '20px' }}>
             <div className="stats-card">

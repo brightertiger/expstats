@@ -192,7 +192,7 @@ function SignificanceCalculator() {
       <form onSubmit={handleSubmit}>
         {analysisMode === 'ab' ? (
           testType === 'conversion' ? (
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div className="variant-cards-grid">
               <div className="variant-card">
                 <div className="variant-card-header">
                   <span className="variant-badge control">Control</span>
@@ -258,7 +258,7 @@ function SignificanceCalculator() {
               </div>
             </div>
           ) : (
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div className="variant-cards-grid">
               <div className="variant-card">
                 <div className="variant-card-header">
                   <span className="variant-badge control">Control</span>
@@ -561,6 +561,7 @@ function SignificanceCalculator() {
           </div>
 
           <div className="card-title">Variant Performance</div>
+          <div className="summary-table-wrapper">
           <table className="summary-table">
             <thead>
               <tr>
@@ -596,10 +597,12 @@ function SignificanceCalculator() {
                 ))}
             </tbody>
           </table>
+          </div>
 
           {result.pairwise_comparisons.filter(p => p.is_significant).length > 0 && (
             <>
               <div className="card-title" style={{ marginTop: '24px' }}>Significant Pairwise Comparisons</div>
+              <div className="summary-table-wrapper">
               <table className="summary-table">
                 <thead>
                   <tr>
@@ -624,6 +627,7 @@ function SignificanceCalculator() {
                     })}
                 </tbody>
               </table>
+              </div>
             </>
           )}
 
