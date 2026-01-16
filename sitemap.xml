@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://pyexptest.readthedocs.io/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/api/conversion/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/api/conversion/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/api/magnitude/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/api/magnitude/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/api/timing/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/api/timing/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/examples/conversion/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/examples/conversion/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/examples/multi-variant/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/examples/multi-variant/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/examples/revenue/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/examples/revenue/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/examples/timing/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/examples/timing/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/getting-started/installation/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/getting-started/installation/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/getting-started/quickstart/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/getting-started/quickstart/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/guide/analyzing-results/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/guide/analyzing-results/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/guide/confidence-intervals/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/guide/confidence-intervals/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/guide/diff-in-diff/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/guide/diff-in-diff/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/guide/multi-variant/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/guide/multi-variant/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/guide/p-values/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/guide/p-values/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
     <url>
-         <loc>https://pyexptest.readthedocs.io/guide/sample-size/</loc>
-         <lastmod>2026-01-15</lastmod>
+         <loc>https://expstats.readthedocs.io/guide/sample-size/</loc>
+         <lastmod>2026-01-16</lastmod>
     </url>
 </urlset>
